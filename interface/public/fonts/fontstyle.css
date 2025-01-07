@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'Poppins';
+    src: url('poppins/Poppins-Medium.otf') format('opentype');
+}
+@font-face {
+    font-family: 'Poppins';
+    src: url('poppins/Poppins-Bold.otf') format('opentype');
+    font-display: swap;
+    font-weight: 700;
+}
+@font-face {
+    font-family: "Glyphicons Halflings";
+    src: url("glyphicons-halflings-regular.eot");
+    src: url("glyphicons-halflings-regular.eot?#iefix") format("embedded-opentype"),
+    url("glyphicons-halflings-regular.woff2") format("woff2"),
+    url("glyphicons-halflings-regular.woff") format("woff"),
+    url("glyphicons-halflings-regular.ttf") format("truetype"),
+    url("glyphicons-halflings-regular.svg#glyphicons_halflingsregular") format("svg");
+}
+html, body {
+    font-family: Poppins;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    margin: 0px;
+    font-family: Poppins;
+}
