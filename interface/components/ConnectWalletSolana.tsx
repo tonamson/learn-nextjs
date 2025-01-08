@@ -21,7 +21,7 @@ export default function ConnectWalletSolana() {
 		() => [
 			new PhantomWalletAdapter(),
 		],
-		[network]
+		[]
 	);
 	
 	return (

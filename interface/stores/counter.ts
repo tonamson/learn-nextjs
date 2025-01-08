@@ -1,7 +1,13 @@
 import {create} from 'zustand'
 
-export const useCounterStore = create((set) => ({
+interface CounterState {
+	count: number
+	increase: () => void
+	decrease: () => void
+}
+
+export const useCounterStore = create<CounterState>((set) => ({
 	count: 0,
-	increase: () => set((state: any) => ({count: state.count + 1})),
-	decrease: () => set((state: any) => ({count: state.count - 1})),
+	increase: (): void => set((state) => ({count: state.count + 1})),
+	decrease: (): void => set((state) => ({count: state.count - 1})),
 }))

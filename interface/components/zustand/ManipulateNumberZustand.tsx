@@ -4,7 +4,7 @@ import {useCounterStore} from "@/stores/counter";
 
 export default function ManipulateNumberZustand() {
 	
-	const {count, increase, decrease} = useCounterStore();
+	const {increase, decrease} = useCounterStore();
 	return (
 		<>
 			<button title={'Increase'} onClick={() => increase()}>increase</button>

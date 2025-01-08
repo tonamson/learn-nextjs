@@ -1,7 +1,8 @@
-import type { NextConfig } from "next";
+import type {NextConfig} from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+	compress: true,
+	// output: 'export'
 };
 
 export default nextConfig;
