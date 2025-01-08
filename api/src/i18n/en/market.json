@@ -1,0 +1,11 @@
+{
+  "create_order": {
+    "asset_not_enough_balance": "Wallet ${symbol} not enough balance",
+    "market_not_found": "Market {symbol} not found",
+    "market_not_ready": "Market {symbol} is not ready for trading"
+  },
+  "not_found_order": "Not found order",
+  "not_your_order": "Not your order",
+  "order_is_not_active": "Order is not active",
+  "market_not_exist": "Market not exist"
+}

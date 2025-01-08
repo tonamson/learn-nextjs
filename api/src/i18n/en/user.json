@@ -1,0 +1,31 @@
+{
+  "change_password_successfully": "Password changed successfully",
+  "login_successfully": "Login successfully",
+  "register_successfully": "Register successfully",
+  "2fa_enable": "Two-factor authentication enable",
+  "2fa_disable": "Two-factor authentication disable",
+  "invalid_2fa": "Invalid two-factor authentication code",
+  "invalid_otp": "Invalid OTP",
+  "confirm_password_not_match": "Confirmation password does not match",
+  "current_password_not_match": "Current password does not match",
+  "2fa_secret_generate_successfully": "2FA secret generated successfully",
+  "setup_2fa_fail_1": "Cannot set up new 2FA as it is currently active",
+  "setup_2fa_fail_2": "Cannot set up new 2FA as it is currently disable",
+  "create_wallet_success": "Create wallet {network} successfully",
+  "transfer": "Transfer request successfully",
+  "receive_transfer": "Receive transfer request successfully",
+  "withdraw": "Withdraw request successfully",
+  "deposit": "Deposit request successfully",
+  "history_deposit": "Get history deposit successfully",
+  "history_withdraw": "Get history withdraw successfully",
+  "history_transfer": "Get history transfer successfully",
+  "history_receive_transfer": "Get history receive transfer successfully",
+  "user_not_found": "User not found",
+  "asset":{
+    "insufficient_asset_balance": "Insufficient asset balance",
+    "amount_invalid": "Amount invalid",
+    "not_found_wallet_in_system": "Not found wallet in system",
+    "deposit_asset_error": "Deposit asset error"
+  },
+  "sponsor_not_found": "Sponsor not found"
+}

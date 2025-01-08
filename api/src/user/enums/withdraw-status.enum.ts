@@ -1,0 +1,9 @@
+export enum WithdrawStatusEnum {
+    SUCCESS = 'SUCCESS',
+    PENDING = 'PENDING',
+    PENDING_BY_ADMIN = 'PENDING_BY_ADMIN',
+    FAILED = 'FAILED',
+    REJECT = 'REJECT',
+    PROCESSING = 'PROCESSING',
+    ORDER_COMPLETE = 'ORDER_COMPLETE',
+}

@@ -1,0 +1,12 @@
+{
+  "wallet_invalid_format": "Wallet format is wrong for network {network}",
+  "insufficient_asset_balance": "Insufficient asset balance",
+  "min_withdraw_is": "Minimum withdraw is {amount} {symbol}",
+  "request_withdraw_success": "Request withdraw success",
+  "confirm_withdraw_successfully": "Confirm withdraw successfully",
+  "request_withdraw_not_found": "Request withdraw not found",
+  "asset_log_not_found": "Asset log not found",
+  "withdraw_is_disabled": "Withdraw is disabled",
+  "min_withdraw_exist": "Minimum {symbol}-{network} withdraw is exist",
+  "withdraw_history_not_found": "Withdraw history not found"
+}

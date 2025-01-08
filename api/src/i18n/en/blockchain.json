@@ -1,0 +1,5 @@
+{
+  "deposit_successfully": "Deposit successfully",
+  "deposit_failed": "Deposit failed",
+  "insufficient_balance": "Insufficient {currency} balance"
+}
