@@ -14,7 +14,7 @@ const WalletMultiButton = dynamic(
 	{ ssr: false }
 );
 
-export default function ConnectWallet() {
+export default function ConnectWalletSolana() {
 	const network = WalletAdapterNetwork.Devnet;
 	const endpoint = useMemo(() => clusterApiUrl(network), [network]);
 	const wallets = useMemo(
@@ -26,7 +26,7 @@ export default function ConnectWallet() {
 	
 	return (
 		<ConnectionProvider endpoint={endpoint}>
-			<WalletProvider wallets={wallets} autoConnect>
+			<WalletProvider wallets={wallets} autoConnect={true}>
 				<WalletModalProvider>
 					<WalletMultiButton />
 				</WalletModalProvider>
